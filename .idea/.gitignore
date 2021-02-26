@@ -6,6 +6,8 @@
 .idea/
 out
 .idea
+.xml
+*.xml
 # Mac
 .DS_Store
 # Maven
