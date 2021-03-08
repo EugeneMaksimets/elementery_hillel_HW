@@ -3,7 +3,6 @@
 /workspace.xml
 # IntellijIdea files
 *.iml
-*.xml
 .idea/
 out
 .idea
