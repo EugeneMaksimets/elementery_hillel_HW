@@ -1,3 +1,43 @@
 # Default ignored files
 /shelf/
-/homeWork17_gradle_maven/home-work-17-gradle/.idea/workspace.xml
+/workspace.xml
+# IntellijIdea files
+*.iml
+.idea/
+out
+.idea
+# Mac
+.DS_Store
+# Maven
+log/
+target/
+# Eclipse
+.classpath
+.project
+.settings/
+# Default ignored files
+*.class
+# Log file
+*.log
+# BlueJ files
+*.ctxt
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
