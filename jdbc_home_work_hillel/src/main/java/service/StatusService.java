@@ -3,8 +3,11 @@ package service;
 import database.Database;
 import entity.Clients;
 import entity.Status;
-
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -92,7 +95,7 @@ public class StatusService {
     public List<String> getJoinNameMailAlias(){
         List<String> joinList = new ArrayList<>();
         try(Connection connection = Database.getConnection();
-        Statement statement = connection.createStatement()){
+            Statement statement = connection.createStatement()){
             ResultSet resultSet = statement.executeQuery(JOIN_NAME_MAIL_ALIAS_QUERY);
             while (resultSet.next()){
                 Status status = new Status();
