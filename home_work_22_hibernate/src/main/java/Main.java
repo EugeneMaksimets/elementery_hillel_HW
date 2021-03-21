@@ -25,7 +25,8 @@ public class Main {
         Client clientWithIdOne = clientService.getById(1);
         System.out.println(clientWithIdOne);
         // GET_BY_PHONE ------------------------------------------------------------------------------------------------
-        System.out.println(clientService.getByPhone(380986717294L));
+        Client clientWithMyNumber = clientService.getByPhone(380986717294L);
+        System.out.println(clientWithMyNumber);
 
         // ACCOUNT_SERVICE ---------------------------------------------------------------------------------------------
         AccountService accountService = new AccountService();
