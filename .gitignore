@@ -16,8 +16,6 @@ target/
 .settings/
 # Default ignored files
 *.class
-# Log file
-*.log
 # BlueJ files
 *.ctxt
 pom.xml.tag
