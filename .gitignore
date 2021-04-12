@@ -9,6 +9,7 @@ out
 # Mac
 .DS_Store
 # Maven
+log/
 target/
 # Eclipse
 .classpath
@@ -16,6 +17,8 @@ target/
 .settings/
 # Default ignored files
 *.class
+# Log file
+*.log
 # BlueJ files
 *.ctxt
 pom.xml.tag
